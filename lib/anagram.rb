@@ -1,7 +1,7 @@
 # Your code goes here!
 require 'pry'
 
-class Anagrams
+class Anagram
   attr_accessor :word
 
   def initialize(word)
@@ -19,3 +19,5 @@ class Anagrams
 
   end
 end
+
+# diaper = Anagram.new('diaper')
