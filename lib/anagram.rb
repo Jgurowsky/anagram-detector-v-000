@@ -6,7 +6,6 @@ class Anagrams
 
   def initialize(word)
     @word = word
-    binding.pry
   end
 
   def match(anagram_array)
@@ -16,7 +15,7 @@ class Anagrams
     # our word and possible anagrams need
     # to be split up and sorted to be compared
 
-
+    binding.pry
 
   end
 end
