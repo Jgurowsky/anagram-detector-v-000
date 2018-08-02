@@ -20,4 +20,4 @@ class Anagram
   end
 end
 
-# diaper = Anagram.new('diaper')
+diaper = Anagram.new('diaper')
