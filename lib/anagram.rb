@@ -15,7 +15,11 @@ class Anagram
     # our word and possible anagrams need
     # to be split up and sorted to be compared
 
+    # method #1 most abstract
+
     anagram_array.find_all{|w| w.split('').sort == word.split('').sort}
+
+    # method #2 less abstract
 
     # anagram_array.collect do |w|
     #   if w.split('').sort == word.split('').sort
@@ -23,8 +27,10 @@ class Anagram
     #   end
     # end.compact
 
+    # method #3 least abstract
+
     # anagram = Array.new
-    #
+
     # anagram_array.each do |w|
     #   if w.split('').sort == word.split('').sort
     #     anagram << w
