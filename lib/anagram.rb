@@ -15,9 +15,9 @@ class Anagram
     # our word and possible anagrams need
     # to be split up and sorted to be compared
 
-    anagram_array.each do |w|
-      w.split('').sort == word.split('').sort
-    end
+    # anagram_array.each do |w|
+    #   w.split('').sort == word.split('').sort
+    # end
 
     # binding.pry
 
