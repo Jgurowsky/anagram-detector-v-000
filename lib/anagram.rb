@@ -15,11 +15,11 @@ class Anagram
     # our word and possible anagrams need
     # to be split up and sorted to be compared
 
-    anagram_array.collect do |w|
-      if w.split('').sort == word.split('').sort
-        w
-      end
-    end.compact
+    # anagram_array.collect do |w|
+    #   if w.split('').sort == word.split('').sort
+    #     w
+    #   end
+    # end.compact
 
     # anagram = Array.new
     #
@@ -29,9 +29,8 @@ class Anagram
     #   end
     # end
     # anagram
+
     # binding.pry
 
   end
 end
-
-# diaper = Anagram.new('diaper')
