@@ -23,8 +23,8 @@ class Anagram
         anagram << w
       end
     end
-
-    binding.pry
+    anagram
+    # binding.pry
 
   end
 end
