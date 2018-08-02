@@ -9,11 +9,11 @@ class Anagram
   end
 
   def match(anagram_array)
-    # #match is going to take our word arguement and find any possible
-    # anagram matches in our anagram_array arguement
+    # #match is going to take our word and and array of anagrams
+    # and find any possible matches 
 
-    # our word and possible anagrams need
-    # to be split up and sorted to be compared
+    # our word and anagrams need to be split up
+    # into letter then sorted to be compared
 
     # method #1 most abstract
 
