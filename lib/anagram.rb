@@ -14,7 +14,7 @@ class Anagrams
 
     # our word and possible anagrams need
     # to be split up and sorted to be compared
-
+    anagram_array.split
     binding.pry
 
   end
