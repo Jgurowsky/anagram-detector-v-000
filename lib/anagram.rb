@@ -20,6 +20,7 @@ class Anagram
       if w.split('').sort == word.split('').sort
         anagram << word
       end
+      anagram
     end
 
     # binding.pry
