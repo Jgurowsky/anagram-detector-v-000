@@ -14,10 +14,12 @@ class Anagram
 
     # our word and possible anagrams need
     # to be split up and sorted to be compared
+    anagram = Array.new
 
-    # anagram_array.each do |w|
-    #   w.split('').sort == word.split('').sort
-    # end
+    anagram_array.each do |w|
+      if w.split('').sort == word.split('').sort
+        anagram << word
+    end
 
     # binding.pry
 
