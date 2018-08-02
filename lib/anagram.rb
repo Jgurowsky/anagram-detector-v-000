@@ -18,7 +18,6 @@ class Anagram
 
     anagram_array.each do |w|
       if w.split('').sort == word.split('').sort
-        anagram << word
         anagram
       end
     end
