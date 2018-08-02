@@ -15,6 +15,8 @@ class Anagram
     # our word and possible anagrams need
     # to be split up and sorted to be compared
 
+    anagram_array.find_all{|w| w.split('').sort == word.split('').sort}
+
     # anagram_array.collect do |w|
     #   if w.split('').sort == word.split('').sort
     #     w
