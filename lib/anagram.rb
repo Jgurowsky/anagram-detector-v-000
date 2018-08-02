@@ -18,8 +18,8 @@ class Anagram
     anagram_array.collect do |w|
       if w.split('').sort == word.split('').sort
         w
-      end.compact
-    end
+      end
+    end.compact
 
     # anagram = Array.new
     #
