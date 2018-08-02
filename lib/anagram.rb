@@ -17,7 +17,7 @@ class Anagram
 
     anagram_array.collect do |w|
       if w.split('').sort == word.split('').sort
-        w
+        w.compact
       end
     end
 
